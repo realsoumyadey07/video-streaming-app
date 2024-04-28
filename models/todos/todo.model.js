@@ -13,7 +13,13 @@ const todoSchema = new mongoose.Schema(
           createdby: {
                type: mongoose.Schema.Types.ObjectId,
                ref: "User"
-          }
+          },
+          subTodos: [
+               {
+                    type: mongoose.Schema.Types.ObjectId,
+                    ref: "SubTodo"
+               }
+          ]
      },
      {
           timestamps: true
