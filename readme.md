@@ -7,4 +7,4 @@ https://app.eraser.io/workspace/U9TJ7ESEI4X9OV5SPmku
 (Prettier, Nodemon)
 
 - dependencies -
-( Express, Mongoose)
+( Express, Mongoose, dotenv, cookie-parser, cors, mongoose-aggregate-paginate-v2, bcrypt, jwt)
